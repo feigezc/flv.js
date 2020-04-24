@@ -36,8 +36,12 @@ npm install --save flv.js
 ```bash
 npm install          # install dev-dependences
 npm install -g gulp  # install build tool
+安装 nvm             # https://segmentfault.com/a/1190000010596717
+nvm install 11.15.0  # 安装该版本 node
+nvm use 11.15.0      # 使用该版本 node，否则会出现 node 与 gulp 版本不兼容的问题
 gulp release         # packaged & minimized js will be emitted in dist folder
 ```
+
 
 [cnpm](https://github.com/cnpm/cnpm) mirror is recommended if you are in Mainland China.
 
